@@ -59,37 +59,35 @@ def number_to_full_month_name(input)
   else print "Not a month."
     puts result
   end
+end
 
   def number_to_short_month_name(input)
     case
-    when 1 
+    when 1
       result = "Jan"
-    when 2 
+    when 2
       result ="Feb"
-    when 3 
+    when 3
       result = "Mar"
-    when 4  
+    when 4 
       result = "Apr"
-    when 5  
+    when 5 
       result = "May"
-    when 6  
+    when 6 
       result = "Jun"
-    when 7  
+    when 7 
       result = "Jul"
-    when 8  
+    when 8 
       result = "Aug"
-    when 9  
+    when 9 
       result = "Sep"
-    when 10 
+    when 10
       result = "Oct"
-    when 11 
+    when 11
       result = "Nov"
-    when 12 
+    when 12
       result = "Dec"
     else print 
       "Not a month."
     end
   end
-
-
-end
