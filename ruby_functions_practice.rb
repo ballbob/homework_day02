@@ -61,8 +61,8 @@ def number_to_full_month_name(input)
   end
 end
 
-  def number_to_short_month_name(input)
-    case
+  def number_to_short_month_name(input)    
+    case input
     when 1
       result = "Jan"
     when 2
@@ -91,3 +91,16 @@ end
       "Not a month."
     end
   end
+
+def volume_of_cube(side)
+  return side ** 3
+end
+
+def volume_of_sphere(radius)
+  return 4/3.to_f * (radius ** 3 ) * Math::PI
+end
+
+def fahrenheit_to_celsius(temp)
+  first = temp.to_f - 32
+  return first * 5/9.to_f
+end
